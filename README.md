@@ -25,10 +25,11 @@ data source link : https://www.kaggle.com/datasets/paramvir705/netflix-dataset/d
 
 
 -- 1. Count the number of Movies vs TV Shows
-	SELECT 
+..SQL	SELECT 
 	type,
 	count(*) as Total_content FROM netflix
 	GROUP BY type;
+ --SQL
 -- 2. Find the most common rating for movies and TV shows
 	SELECT 
 	type,
