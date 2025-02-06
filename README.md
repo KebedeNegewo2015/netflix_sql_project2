@@ -30,5 +30,5 @@ SELECT
 	type,
 	count(*) as Total_content FROM netflix
 GROUP BY type;
-''' SQL
+'''
 
