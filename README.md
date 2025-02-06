@@ -22,8 +22,8 @@ final conclusions.
 source data provided from Kaggle dataset.
 data source link : https://www.kaggle.com/datasets/paramvir705/netflix-dataset/data 
 
-
-###  1. Count the number of Movies vs TV Shows
+## Business problem and Solutions
+ 1. Count the number of Movies vs TV Shows
 ...SQL	SELECT 
 	type,
 	count(*) as Total_content FROM netflix
